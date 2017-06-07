@@ -1,6 +1,6 @@
 {
   "name": "@nkbt/timeout",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Option-less GNU timeout implementation",
   "main": "timeout.js",
   "bin": {
@@ -26,8 +26,7 @@
     "url": "https://github.com/nkbt/timeout/issues"
   },
   "homepage": "https://github.com/nkbt/timeout",
-  "dependencies": {
-  },
+  "dependencies": {},
   "files": [
     "timeout.js",
     "README.md"
