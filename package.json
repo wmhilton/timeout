@@ -1,13 +1,18 @@
 {
   "name": "@nkbt/timeout",
   "version": "1.0.1",
-  "description": "Option-less GNU `timeout` implementation",
+  "description": "Option-less GNU timeout implementation",
   "main": "timeout.js",
   "bin": {
     "timeout": "./timeout.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkbt/timeout.git"
   },
   "keywords": [
     "timeout",
@@ -17,7 +22,12 @@
   ],
   "author": "Nik Butenko <nik@butenko.me> (http://butenko.me)",
   "license": "MIT",
-  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/nkbt/timeout/issues"
+  },
+  "homepage": "https://github.com/nkbt/timeout",
+  "dependencies": {
+  },
   "files": [
     "timeout.js",
     "README.md"

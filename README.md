@@ -2,13 +2,13 @@
 
 Option-less GNU `timeout` implementation
 
-## CLI Installation
+## Installation
 
 ```bash
 npm install -g timeout
 ```
 
-## CLI Usage
+## Usage
 
 ```bash
 timeout DURATION COMMAND
