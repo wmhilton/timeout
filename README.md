@@ -1,5 +1,7 @@
 # timeout
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nkbt/timeout.svg)](https://greenkeeper.io/)
+
 Option-less GNU `timeout` implementation
 
 ## CLI Installation
