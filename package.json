@@ -1,0 +1,26 @@
+{
+  "name": "@nkbt/timeout",
+  "version": "0.0.0",
+  "description": "Option-less GNU `timeout` implementation",
+  "main": "timeout.js",
+  "bin": {
+    "timeout": "./timeout.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timeout",
+    "cli",
+    "gnu timeout",
+    "coreutils timeout"
+  ],
+  "author": "Nik Butenko <nik@butenko.me> (http://butenko.me)",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "files": [
+    "timeout.js",
+    "README.md"
+  ]
+}
