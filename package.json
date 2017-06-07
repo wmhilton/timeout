@@ -1,6 +1,6 @@
 {
   "name": "@nkbt/timeout",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Option-less GNU `timeout` implementation",
   "main": "timeout.js",
   "bin": {
@@ -17,8 +17,7 @@
   ],
   "author": "Nik Butenko <nik@butenko.me> (http://butenko.me)",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "files": [
     "timeout.js",
     "README.md"
