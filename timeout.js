@@ -27,7 +27,7 @@ const watchdogTimer = setTimeout(() => {
 }, timeout * 1000);
 
 
-cp.on('close', () => {
+cp.on('close', (code) => {
   clearTimeout(watchdogTimer);
-  process.exit(0);
+  process.exit(code);
 });
